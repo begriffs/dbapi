@@ -148,4 +148,8 @@ rec {
       inherit docker;
       postgrest = postgrestStatic;
     };
+
+  # Changelog tools.
+  changelog =
+    pkgs.callPackage nix/tools/changelog { };
 }
