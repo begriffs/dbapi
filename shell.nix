@@ -25,6 +25,7 @@ let
 
   toolboxes =
     [
+      postgrest.changelog
       postgrest.devtools
       postgrest.nixpkgsTools
       postgrest.style
